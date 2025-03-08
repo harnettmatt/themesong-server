@@ -1,0 +1,7 @@
+themesong.io {
+    reverse_proxy fe:8080
+}
+
+api.themesong.io {
+    reverse_proxy api:8000
+}
