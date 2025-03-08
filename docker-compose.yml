@@ -23,3 +23,9 @@ services:
     restart: always
     depends_on:
       - cloudflare-ddns
+    networks:
+      - themesong-network
+networks:
+  themesong-network:
+    name: themesong-network
+    driver: bridge
